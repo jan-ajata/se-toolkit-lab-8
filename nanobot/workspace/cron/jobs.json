@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "health-check-1",
+      "name": "LMS Health Check",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "atMs": null,
+        "everyMs": 900000,
+        "expr": null,
+        "tz": null
+      },
+      "payload": {
+        "kind": "agent_turn",
+        "message": "Check for backend errors in the last 15 minutes and post a summary here.",
+        "deliver": true,
+        "channel": "webchat",
+        "to": "auto-health-check"
+      },
+      "state": {
+        "nextRunAtMs": 1774802315049,
+        "lastRunAtMs": 1774801389697,
+        "lastStatus": "ok",
+        "lastError": null,
+        "runHistory": [
+          {
+            "runAtMs": 1774741322819,
+            "status": "ok",
+            "durationMs": 145660,
+            "error": null
+          },
+          {
+            "runAtMs": 1774742368481,
+            "status": "ok",
+            "durationMs": 145493,
+            "error": null
+          },
+          {
+            "runAtMs": 1774743413976,
+            "status": "ok",
+            "durationMs": 145144,
+            "error": null
+          },
+          {
+            "runAtMs": 1774744459122,
+            "status": "ok",
+            "durationMs": 7225217,
+            "error": null
+          },
+          {
+            "runAtMs": 1774752584341,
+            "status": "ok",
+            "durationMs": 735424,
+            "error": null
+          },
+          {
+            "runAtMs": 1774754219767,
+            "status": "ok",
+            "durationMs": 145475,
+            "error": null
+          },
+          {
+            "runAtMs": 1774755265243,
+            "status": "ok",
+            "durationMs": 5750412,
+            "error": null
+          },
+          {
+            "runAtMs": 1774761915657,
+            "status": "ok",
+            "durationMs": 2800578,
+            "error": null
+          },
+          {
+            "runAtMs": 1774765616236,
+            "status": "ok",
+            "durationMs": 146040,
+            "error": null
+          },
+          {
+            "runAtMs": 1774766662278,
+            "status": "ok",
+            "durationMs": 1915595,
+            "error": null
+          },
+          {
+            "runAtMs": 1774769477876,
+            "status": "ok",
+            "durationMs": 144816,
+            "error": null
+          },
+          {
+            "runAtMs": 1774770522694,
+            "status": "ok",
+            "durationMs": 145762,
+            "error": null
+          },
+          {
+            "runAtMs": 1774771568458,
+            "status": "ok",
+            "durationMs": 145709,
+            "error": null
+          },
+          {
+            "runAtMs": 1774772614169,
+            "status": "ok",
+            "durationMs": 7226226,
+            "error": null
+          },
+          {
+            "runAtMs": 1774780740396,
+            "status": "ok",
+            "durationMs": 6346789,
+            "error": null
+          },
+          {
+            "runAtMs": 1774787987187,
+            "status": "ok",
+            "durationMs": 145294,
+            "error": null
+          },
+          {
+            "runAtMs": 1774789032482,
+            "status": "ok",
+            "durationMs": 145645,
+            "error": null
+          },
+          {
+            "runAtMs": 1774790078127,
+            "status": "ok",
+            "durationMs": 7225718,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800469639,
+            "status": "ok",
+            "durationMs": 20057,
+            "error": null
+          },
+          {
+            "runAtMs": 1774801389697,
+            "status": "ok",
+            "durationMs": 25351,
+            "error": null
+          }
+        ]
+      },
+      "createdAtMs": 1774706700000,
+      "updatedAtMs": 1774801415048,
+      "deleteAfterRun": false
+    },
+    {
+      "id": "8012d3f6",
+      "name": "Health check - verify system s",
+      "enabled": true,
+      "schedule": {
+        "kind": "every",
+        "atMs": null,
+        "everyMs": 120000,
+        "expr": null,
+        "tz": null
+      },
+      "payload": {
+        "kind": "agent_turn",
+        "message": "Health check - verify system status",
+        "deliver": true,
+        "channel": "webchat",
+        "to": "542f46f4-f03a-42cc-be0c-d9bb994e0d9e"
+      },
+      "state": {
+        "nextRunAtMs": 1774801803220,
+        "lastRunAtMs": 1774801643179,
+        "lastStatus": "ok",
+        "lastError": null,
+        "runHistory": [
+          {
+            "runAtMs": 1774799847144,
+            "status": "ok",
+            "durationMs": 19436,
+            "error": null
+          },
+          {
+            "runAtMs": 1774799986582,
+            "status": "ok",
+            "durationMs": 28927,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800135511,
+            "status": "ok",
+            "durationMs": 21315,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800276828,
+            "status": "ok",
+            "durationMs": 49968,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800446798,
+            "status": "ok",
+            "durationMs": 22841,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800589641,
+            "status": "ok",
+            "durationMs": 26422,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800736065,
+            "status": "ok",
+            "durationMs": 43118,
+            "error": null
+          },
+          {
+            "runAtMs": 1774800899184,
+            "status": "ok",
+            "durationMs": 31709,
+            "error": null
+          },
+          {
+            "runAtMs": 1774801050893,
+            "status": "ok",
+            "durationMs": 22569,
+            "error": null
+          },
+          {
+            "runAtMs": 1774801193464,
+            "status": "ok",
+            "durationMs": 35454,
+            "error": null
+          },
+          {
+            "runAtMs": 1774801348919,
+            "status": "ok",
+            "durationMs": 21424,
+            "error": null
+          },
+          {
+            "runAtMs": 1774801490344,
+            "status": "ok",
+            "durationMs": 32765,
+            "error": null
+          },
+          {
+            "runAtMs": 1774801643179,
+            "status": "ok",
+            "durationMs": 40037,
+            "error": null
+          }
+        ]
+      },
+      "createdAtMs": 1774799727143,
+      "updatedAtMs": 1774801683216,
+      "deleteAfterRun": false
+    }
+  ]
+}
