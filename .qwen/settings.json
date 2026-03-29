@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl *)",
+      "Bash(docker compose *)",
+      "Bash(grep *)",
+      "Bash(ls *)",
+      "Bash(git submodule *)",
+      "Bash(sleep *)",
+      "Bash(cat *)",
+      "Bash(uv *)",
+      "Bash(timeout *)",
+      "Bash(true)",
+      "WebFetch(github.com)",
+      "Bash(chown *)",
+      "Bash(rm *)",
+      "Bash(websocat *)",
+      "Bash(import *)",
+      "Bash(async *)",
+      "Bash(uri *)",
+      "Bash(as *)",
+      "Bash(await *)",
+      "Bash(json.dumps)",
+      "Bash(print)",
+      "Bash(asyncio.run)",
+      "Bash(py)",
+      "Bash(docker ps *)",
+      "Bash(git reset *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git stash *)"
+    ]
+  },
+  "$version": 3
+}
